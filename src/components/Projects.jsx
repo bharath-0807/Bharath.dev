@@ -100,9 +100,6 @@ function ProjectCard({ project, index }) {
           <span key={tag}>{tag}</span>
         ))}
       </div>
-      <span className="project-link">
-        View Project <span className="project-link-arrow">→</span>
-      </span>
     </div>
   )
 }
